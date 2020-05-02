@@ -159,7 +159,7 @@ header {
 }
 .features-item-text {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 13px;
   line-height: 24px;
 }
 
@@ -174,7 +174,7 @@ header {
 }
 
 .features-list {
-  height: 400px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -184,6 +184,6 @@ header {
 
 .features-item {
   width: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   padding-left: 50px;
 }
