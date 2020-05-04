@@ -187,3 +187,110 @@ header {
   margin-bottom: 50px;
   padding-left: 50px;
 }
+
+.video-section{
+  background-color: #1900ff;
+}
+
+.container{
+  display: block;
+  margin: 0 auto;
+  width: 93%;
+
+}
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 450px;
+  justify-content: space-around;
+
+}
+
+.video-title{
+  font-family: 'Raleway',sans-serif;
+  font-weight: bold;
+  color: aquamarine;
+  font-size: large;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 85px;
+  text-transform: uppercase;
+}
+
+.video-intro{
+  font-family: 'Open Sans',sans-serif;
+  text-align: left;
+  color: #f0950e;
+  margin: 0;
+  width: 48%;
+  font-size: x-large;
+  line-height: 26px;
+  border: #fff;
+  padding: 45px
+
+}
+
+.ceo-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.ceo{
+  width: 100px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+
+.ceo-photo{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+border-radius: 5%;
+}
+
+.ceo-name{
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.ceo-info{
+  text-align: center;
+  font-size: 13px;
+  color: #b5b5b5;
+
+}
+
+.ceo-quote{
+  text-align: center;
+  width: 80%;
+  margin: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  color: #282528;
+
+}
+
+.ceo-quote::before{
+  content: '"';
+  width: 14%;
+  height: 15%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 13%;
+  position: absolute;
+  top: 20px;
+  left: -45px;
+  color: #babdc175;
+
+}
